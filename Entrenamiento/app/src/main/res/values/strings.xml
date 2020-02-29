@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Training</string>
+    <string name="f_name">Firstname</string>
+    <string name="l_name">Lastname</string>
+    <string name="email">E-mail</string>
+    <string name="pass">Password</string>
+    <string name="Regist">Sing Up</string>
+    <string name="cancel">cancel</string>
+    <string name="name">César</string>
+    <string name="last">Manchini</string>
+    <string name="em">abc@email.com</string>
+    <string name="paswor">*******</string>
+    <string name="signin">Sing in</string>
+
 </resources>

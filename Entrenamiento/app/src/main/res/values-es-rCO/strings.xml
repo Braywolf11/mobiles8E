@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Entrenamiento</string>
+    <string name="f_name">Nombres</string>
+    <string name="l_name">Apellidos</string>
+    <string name="email">Correo Electronico</string>
+    <string name="pass">Contraseña</string>
+    <string name="Regist">Registrar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="name">Caesar</string>
+    <string name="last">Manchini</string>
+    <string name="em">abc@email.com</string>
+    <string name="paswor">*******</string>
+    <string name="signin">Iniciar Sesion</string>
 </resources>

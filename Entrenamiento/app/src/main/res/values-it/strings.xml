@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Formazione</string>
+    <string name="f_name">Nomi</string>
+    <string name="l_name">Cognome</string>
+    <string name="email">E-mail</string>
+    <string name="pass">Parola d´ordine</string>
+    <string name="Regist">Registrati</string>
+    <string name="cancel">anulla</string>
+    <string name="name">Cesare</string>
+    <string name="last">Manchini</string>
+    <string name="em">abc@email.com</string>
+    <string name="paswor">*******</string>
+    <string name="signin">Login</string>
+
 </resources>
