@@ -16,9 +16,10 @@
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
-            android:layout_height="93dp"
+            android:layout_height="128dp"
+            android:layout_marginBottom="26dp"
             app:srcCompat="@drawable/user"
-            android:layout_marginBottom="26dp"/>
+            android:layout_marginTop="20dp"/>
 
         <TextView
             android:id="@+id/textView"
