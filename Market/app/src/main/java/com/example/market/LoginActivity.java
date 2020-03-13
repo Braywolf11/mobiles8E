@@ -23,5 +23,7 @@ public class LoginActivity extends AppCompatActivity {
 
     public void BtnSingup(View view){
         //Toast.makeText(this, "Sing up", Toast.LENGTH_SHORT).show();
+        Intent actRegister = new Intent(this,RegisterActivity.class);
+        startActivity(actRegister);
     }
 }

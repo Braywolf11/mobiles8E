@@ -5,4 +5,5 @@
     <string name="btnlogin">Login</string>
     <string name="btnsingup">Sing up</string>
     <string name="lblactHome">Home</string>
+    <string name="lblactRegister">Register</string>
 </resources>
