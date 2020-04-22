@@ -21,34 +21,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/Red"
-                android:textSize="20dp"/>
+                android:text="@string/lbl_Red"
+                android:textSize="25dp" />
 
             <SeekBar
-                android:id="@+id/seekBar"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/sbrRed"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/Green"
-                android:textSize="20dp"/>
-
-            <SeekBar
-                android:id="@+id/seekBar2"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1" />
+                android:max="255"
+                android:min="0"
+                android:progress="0" />
         </LinearLayout>
 
         <LinearLayout
@@ -61,14 +44,40 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/Blue"
-                android:textSize="20dp"/>
+                android:text="@string/lbl_Blue"
+                android:textSize="25dp" />
 
             <SeekBar
-                android:id="@+id/seekBar3"
+                android:id="@+id/sbrGreen"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:max="255"
+                android:min="0"
+                android:progress="0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/lbl_Green"
+                android:textSize="25dp" />
+
+            <SeekBar
+                android:id="@+id/sbrBlue"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:max="255"
+                android:min="0"
+                android:progress="0" />
         </LinearLayout>
 
         <LinearLayout
@@ -81,14 +90,29 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/Alpha"
-                android:textSize="20dp"/>
+                android:text="@string/alpha"
+                android:textSize="25dp" />
 
             <SeekBar
-                android:id="@+id/seekBar4"
+                android:id="@+id/sbrAlpha"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:max="255"
+                android:min="0"
+                android:progress="0" />
         </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/mario">
+
+            <View
+                android:id="@+id/viewColors"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#80808080" />
+        </FrameLayout>
     </LinearLayout>
 </RelativeLayout>
