@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/Bg1cal">
+
+        <TextView
+            android:id="@+id/tctdisplay"
+            android:layout_width="match_parent"
+            android:layout_height="111dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:hint="0"
+            android:textColor="@color/Coloetesxtdisplay1"
+            android:textColorHint="@color/Coloetesxtdisplay1"
+            android:textSize="70dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:gravity="center_horizontal">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/Bgtec"
+                    android:onClick="btnAC"
+                    android:text="AC"
+                    android:textColor="@color/Coloetesxtdisplay1"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:text="+/-"
+                    android:layout_marginRight="5dp"
+                    android:textSize="30dp"
+                    android:textColor="@color/Coloetesxtdisplay1"
+                    android:background="@color/Bgtec"/>
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:text="C"
+                    android:layout_marginRight="5dp"
+                    android:textSize="30dp"
+                    android:textColor="@color/Coloetesxtdisplay1"
+                    android:background="@color/Bgtec"/>
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:text="/"
+                    android:layout_marginRight="5dp"
+                    android:textSize="30dp"
+                    android:textColor="@color/Coloetesxtdisplay1"
+                    android:background="@color/Bgtec"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btn7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/Bgtec"
+                    android:onClick="btn7"
+                    android:text="7"
+                    android:textColor="@color/Coloetesxtdisplay1"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:text="8"
+                    android:layout_marginRight="5dp"
+                    android:textSize="30dp"
+                    android:textColor="@color/Coloetesxtdisplay1"
+                    android:background="@color/Bgtec"/>
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:text="9"
+                    android:layout_marginRight="5dp"
+                    android:textSize="30dp"
+                    android:textColor="@color/Coloetesxtdisplay1"
+                    android:background="@color/Bgtec"/>
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:text="*"
+                    android:layout_marginRight="5dp"
+                    android:textSize="30dp"
+                    android:textColor="@color/Coloetesxtdisplay1"
+                    android:background="@color/Bgtec"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:text="4"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="30dp"
+                    android:textColor="@color/Coloetesxtdisplay1"
+                    android:background="@color/Bgtec"/>
+
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:text="5"
+                    android:layout_marginRight="5dp"
+                    android:textSize="30dp"
+                    android:textColor="@color/Coloetesxtdisplay1"
+                    android:background="@color/Bgtec"/>
+
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:text="6"
+                    android:layout_marginRight="5dp"
+                    android:textSize="30dp"
+                    android:textColor="@color/Coloetesxtdisplay1"
+                    android:background="@color/Bgtec"/>
+
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:text="-"
+                    android:layout_marginRight="5dp"
+                    android:textSize="30dp"
+                    android:textColor="@color/Coloetesxtdisplay1"
+                    android:background="@color/Bgtec"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:text="1"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="30dp"
+                    android:textColor="@color/Coloetesxtdisplay1"
+                    android:background="@color/Bgtec"/>
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:text="2"
+                    android:layout_marginRight="5dp"
+                    android:textSize="30dp"
+                    android:textColor="@color/Coloetesxtdisplay1"
+                    android:background="@color/Bgtec"/>
+
+                <Button
+                    android:id="@+id/button15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:text="3"
+                    android:layout_marginRight="5dp"
+                    android:textSize="30dp"
+                    android:textColor="@color/Coloetesxtdisplay1"
+                    android:background="@color/Bgtec"/>
+
+                <Button
+                    android:id="@+id/button16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:text="+"
+                    android:layout_marginRight="5dp"
+                    android:textSize="30dp"
+                    android:textColor="@color/Coloetesxtdisplay1"
+                    android:background="@color/Bgtec"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/button17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:text="0"
+                    android:layout_marginRight="5dp"
+                    android:textSize="30dp"
+                    android:layout_span="2"
+                    android:textColor="@color/Coloetesxtdisplay1"
+                    android:background="@color/Bgtec"/>
+
+                <Button
+                    android:id="@+id/button18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:text="."
+                    android:layout_marginRight="5dp"
+                    android:textSize="30dp"
+                    android:textColor="@color/Coloetesxtdisplay1"
+                    android:background="@color/Bgtec"/>
+
+                <Button
+                    android:id="@+id/button19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:text="="
+                    android:layout_marginRight="5dp"
+                    android:textSize="30dp"
+                    android:textColor="@color/Coloetesxtdisplay1"
+                    android:background="@color/Bgtec"/>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</RelativeLayout>
